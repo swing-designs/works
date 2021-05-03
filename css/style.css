@@ -769,11 +769,11 @@ a {
     color: #fff; }
     .filter-wrap .filter a {
       margin-left: 10px;
-      color: rgba(255, 255, 255, 0.5); }
+      color: rgba(0,0,0,1.00); }
       .filter-wrap .filter a:hover {
-        color: #fff; }
+        color: #FF7E00; }
       .filter-wrap .filter a.active {
-        color: #fff; }
+        color: #FF7E00; }
     @media (max-width: 991.98px) {
       .filter-wrap .filter {
         background: #000;
