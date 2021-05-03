@@ -762,40 +762,56 @@ a {
     opacity: 0;
     visibility: hidden; }
 
+
 .filter-wrap {
-  position: relative; }
+  position: relative;
+}
+
+.filter-wrap .filter {
+  font-size: 14px;
+  color: #000;
+}
+
+.filter-wrap .filter a {
+  margin-left: 10px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.filter-wrap .filter a:hover {
+  color: #000;
+}
+
+.filter-wrap .filter a.active {
+  color: #000;
+}
+
+@media (max-width: 991.98px) {
   .filter-wrap .filter {
-    font-size: 14px;
-    color: #fff; }
-    .filter-wrap .filter a {
-      margin-left: 10px;
-      color: rgba(0,0,0,1.00); }
-      .filter-wrap .filter a:hover {
-        color: #FF7E00; }
-      .filter-wrap .filter a.active {
-        color: #FF7E00; }
-    @media (max-width: 991.98px) {
-      .filter-wrap .filter {
-        background: #000;
-        z-index: 9;
-        position: absolute;
-        min-width: 150px;
-        opacity: 0;
-        visibility: hidden;
-        -webkit-transition: .3s all ease;
-        -o-transition: .3s all ease;
-        transition: .3s all ease;
-        right: 0;
-        padding: 20px;
-        top: 10px;
-        -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
-        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
-        border-radius: 4px; }
-        .filter-wrap .filter.active {
-          opacity: 1;
-          visibility: visible; }
-        .filter-wrap .filter a {
-          display: block; } }
+    background: #fff;
+    z-index: 9;
+    position: absolute;
+    min-width: 150px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    right: 0;
+    padding: 20px;
+    top: 10px;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+  }
+  .filter-wrap .filter.active {
+    opacity: 1;
+    visibility: visible;
+  }
+  .filter-wrap .filter a {
+    display: block;
+  }
+}
+
 
 /* Isotope Transitions
 ------------------------------- */
