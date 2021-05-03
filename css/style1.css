@@ -1,0 +1,57 @@
+.typity {
+  background-position: 100% 100%;
+  border-bottom: 3px solid #fff700;
+  box-sizing: border-box;
+
+  padding-right: 2px;
+  position: relative;
+  transition: background-position 1s;
+}
+.typity::after {
+  animation: blink-cursor 0.75s step-end infinite;
+  background-color: #ffffff;
+  content: "";
+  display: block;
+  height: 3rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 2px;
+}
+.typity.highlight {
+  background-image: linear-gradient(to left, rgba(255,241,0,0.50) 50%, transparent 50%);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 200% 3rem;
+}
+.typity.highlight::after {
+  animation: none;
+}
+
+@keyframes blink-cursor {
+  0% {
+    background-color: transparent;
+  }
+  50% {
+    background-color: black;
+  }
+}
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 12px;
+  }
+
+  .typity {
+    border-bottom: 2px solid #492EF5;
+  }
+}
+
+
+.filterDiv {
+  display: none; /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
