@@ -32,7 +32,7 @@
         <div class="portfolio-single-wrap unslate_co--section" id="portfolio-single-section">
           <div class="portfolio-single-inner">
             <h2 class="heading-portfolio-single-h2">XM</h2>
-			  <div class="responsive-google-slides">
+			  <div class="video-container">
 			  <iframe src="https://www.youtube.com/embed/D77S8p2epto"></iframe></div>
 			  <p align="center">Promotion video.</p>
 
@@ -140,20 +140,25 @@
   <script src="js/main.js"></script>
 
   <style>
-    .responsive-google-slides {
-      position: relative;
-      padding-bottom: 56.25%; /* 16:9 Ratio */
-      height: 0;
-      overflow: hidden;
-    }
-    .responsive-google-slides iframe {
-      border: 0;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100% !important;
-      height: 100% !important;
-    }
+  .video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
   </style>
 
 
