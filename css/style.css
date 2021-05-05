@@ -46,6 +46,10 @@ body, .unslate_co--site-inner {
   background: #000;
   color: #fff; }
 
+body{
+    overflow-x: hidden;
+}
+
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
