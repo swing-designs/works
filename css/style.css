@@ -46,9 +46,9 @@ body, .unslate_co--site-inner {
   background: #000;
   color: #fff; }
 
-html,body{
+body{
     overflow-x: hidden;
-	
+	overflow-y: hidden;
 }
 
 a {
