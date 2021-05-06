@@ -800,32 +800,7 @@ a {
   color: #000;
 }
 
-@media (max-width: 991.98px) {
-  .filter-wrap .filter {
-    background: #fff;
-    z-index: 9;
-    position: absolute;
-    min-width: 150px;
-    opacity: 0;
-    visibility: visible;
-    -webkit-transition: .3s all ease;
-    -o-transition: .3s all ease;
-    transition: .3s all ease;
-    right: 0;
-    padding: 20px;
-    top: 10px;
-    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-  }
-  .filter-wrap .filter.active {
-    opacity: 1;
-    visibility: visible;
-  }
-  .filter-wrap .filter a {
-    display: block;
-  }
-}
+
 
 
 /* Isotope Transitions
