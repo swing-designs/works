@@ -168,7 +168,7 @@ a {
     position: relative; }
   .unslate_co--site-nav .unslate_co--site-logo {
     font-size: 1.7rem;
-    color: #495057;
+    color: #FFFFFF;
     font-weight: 700; }
     .unslate_co--site-nav .unslate_co--site-logo span {
       color: #FFD100; }
@@ -184,7 +184,7 @@ a {
       .unslate_co--site-nav .site-nav-ul > li > a, .unslate_co--site-nav .site-nav-ul-none-onepage > li > a {
         padding: 10px 7px;
         display: block;
-        color: #495057;
+        color: #FFFFFF;
         font-size: 14px;
         position: relative; }
         .unslate_co--site-nav .site-nav-ul > li > a:before, .unslate_co--site-nav .site-nav-ul-none-onepage > li > a:before {
