@@ -25,18 +25,18 @@ function startType(pun, index) {
 
 function getRandomPun() {
   const puns = [
-   "Hi,  I'm Ckrizzi. 	<br>	I love tea.",
-    "Hi,  I'm Ckrizzi. 	<br>	I love hojicha.",
-    "Hi,  I'm Ckrizzi. 	<br>	I love ramen.",
-    "Hi,  I'm Ckrizzi. <br>		I love colours.",
-    "Hi,  I'm Ckrizzi. 	<br> I love art.",
-    "Hi, I'm Ckrizzi. 	<br>	I love sketching.",
-	"Hi,  I'm Ckrizzi.<br> Pineapples on pizza is a sin.",
-	"Hi,  I'm Ckrizzi. <br> I love yellow.",
-	"Hi,  I'm Ckrizzi. <br >Tell me what your favourite tea is.",
-  "Hi,  I'm Ckrizzi. <br> I'm broke.",
-  "Hi,  I'm Ckrizzi. <br >Do you like hojicha?",
-  "Hi,  I'm Ckrizzi. <br> I love cute socks."
+   "Hi,  I'm Swing. 	<br>	I love tea.",
+    "Hi,  I'm Swing. 	<br>	I love hojicha.",
+    "Hi,  I'm Swing. 	<br>	I love ramen.",
+    "Hi,  I'm Swing. <br>		I love colours.",
+    "Hi,  I'm Swing. 	<br> I love art.",
+    "Hi, I'm Swing. 	<br>	I love sketching.",
+	"Hi,  I'm Swing.<br> Pineapples on pizza is a sin.",
+	"Hi,  I'm Swing. <br> I love yellow.",
+	"Hi,  I'm Swing. <br >Tell me what your favourite tea is.",
+  "Hi,  I'm Swing. <br> I'm broke.",
+  "Hi,  I'm Swing. <br >Do you like hojicha?",
+  "Hi,  I'm Swing. <br> I love cute socks."
   ];
   const index = Math.floor(Math.random() * puns.length);
 
